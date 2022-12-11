@@ -3,9 +3,11 @@ body {
     margin: 0;
 }
 
+/* TOP SECTION CSS */
 .first-section {
     background-color: #1f2937;
     color: #F9FAF8;
+    padding: 0 150px 100px 150px;
 }
 
 .header-logo-text {
@@ -15,11 +17,14 @@ body {
 
 ul {
     list-style-type: none;
+    display: flex;
+    gap: 32px;
+    margin: 0;
+    padding: 0;
 }
 
 a {
     text-decoration: none;
-    font-size: 18px;
     color: #e5e7eb;
 }
 
@@ -27,4 +32,30 @@ a {
     font-size: 48px;
     font-weight: extra-bold;
     color: #F9FAF8;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    margin-bottom: 96px;
+}
+
+.hero-content {
+    display: flex;
+    align-items: center;
+    gap: 48px;
+}
+
+.hero-button {
+    background-color: #3882f6;
+    color: white;
+    padding: 12px 36px;
+    font-size: 16px;
+    border: none;
+    border-radius: 8px;
+}
+
+.hero-image {
+    max-width: 400px;
 }
