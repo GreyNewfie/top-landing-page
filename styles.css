@@ -3,16 +3,43 @@ body {
     margin: 0;
 }
 
+/* LIGHT COLOURED TEXT FOR ALL DARK BACKGROUND SECTIONS AND BUTTONS */
+.first-section,
+.header-logo-text,
+.hero-main-text,
+.hero-button,
+#action-header,
+#action-button,
+.footer {
+    color: #F9FAF8;
+}
+
+/* BACKGROUND COLOR FOR HEADER AND FOOTER */
+.first-section,
+.footer {
+    background-color: #1f2937;
+}
+
+/* BLUE BACKGROUND FOR BUTTONS & CALL TO ACTION SECTION */
+.hero-button,
+.action,
+#action-button {
+    background-color: #3882f6;
+}
+
+/* LIGHT GREY TEXT STYLING FOR HEADER LINKS & CALL TO ACTION TEXT*/
+a,
+#action-paragraph {
+    color: #e5e7eb;
+}
+
 /* TOP SECTION CSS */
 .first-section {
-    background-color: #1f2937;
-    color: #F9FAF8;
     padding: 0 150px 100px 150px;
 }
 
 .header-logo-text {
     font-size: 24px;
-    color: #F9FAF8;
 }
 
 ul {
@@ -25,13 +52,11 @@ ul {
 
 a {
     text-decoration: none;
-    color: #e5e7eb;
 }
 
 .hero-main-text {
     font-size: 48px;
     font-weight: extra-bold;
-    color: #F9FAF8;
 }
 
 .header {
@@ -48,8 +73,6 @@ a {
 }
 
 .hero-button {
-    background-color: #3882f6;
-    color: white;
     padding: 12px 36px;
     font-size: 16px;
     border: none;
@@ -125,7 +148,6 @@ a {
 }
 
 .action {
-    background-color: #3882f6;
     display: flex;
     align-items: center;
     gap: 96px;
@@ -133,10 +155,7 @@ a {
     border-radius: 8px;
 }
 
-.action-text {
-    margin: 2px 0;
-}
-
+.action-text,
 #action-header,
 #action-paragraph {
     margin: 2px 0;
@@ -145,17 +164,13 @@ a {
 #action-header {
     font-size: 24px;
     font-weight: 600;
-    color: #F9FAF8;
 }
 
 #action-paragraph {
     font-size: 16px;
-    color: #e5e7eb;
 }
 
 #action-button {
-    background-color: #3882f6;
-    color: #F9FAF8;
     border: solid #F9FAF8;
     border-radius: 8px;
     padding: 10px 32px;
@@ -164,8 +179,6 @@ a {
 
 /* FOOTER */
 .footer {
-    background-color: #1f2937;
-    color: #F9FAF8;
     text-align: center;
     padding: 50px;
 }
